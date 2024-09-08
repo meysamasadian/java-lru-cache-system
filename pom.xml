@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- Project coordinates -->
-    <groupId>me.asadian.private</groupId>
+    <groupId>me.asadian.privateproject</groupId>
     <artifactId>lru-cache-system</artifactId>
     <version>1.0-SNAPSHOT</version>
 
