@@ -55,7 +55,7 @@ Here is an example of how to use the LRU cache:
 ```java
 public class Main {
     public static void main(String[] args) {
-        LRUCache<Integer, String> cache = new LRUCache<>(3);
+        LRUCache<Integer, String> cache = new LRUCacheImpl<>(3);
 
         // Add some values to the cache
         cache.put(1, "Booking.com");
