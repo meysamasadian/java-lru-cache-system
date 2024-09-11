@@ -39,13 +39,15 @@ This project implements a **Least Recently Used (LRU) Cache System** in Java. Th
 3. **Compile the code**:
     You can use any Java IDE (such as IntelliJ IDEA or Eclipse), or use the command line with the following:
     ```bash
-    javac LRUCache.java
+    javac -d out -sourcepath src src/main/java/me/asadian/privateproject/lrucache/*.java
+
+    javac -cp lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar -d out/test -sourcepath test src/test/java/me/asadian/privateproject/lrucache/*.java
     ```
 
 4. **Run the tests**:
     Once compiled, you can run the main method to test the LRU Cache:
     ```bash
-    java LRUCache
+    java -cp out/test:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore me.asadian.privateproject.LruCacheTest
     ```
 
 ## Usage
